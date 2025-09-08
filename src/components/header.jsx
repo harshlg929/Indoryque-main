@@ -66,7 +66,7 @@ const Header = () => {
           width={'160'}
           height={'80'}
         />
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           onClick={toggleMenu}
@@ -75,7 +75,7 @@ const Header = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         {/* <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             {menuItems.map((item, index) =>
