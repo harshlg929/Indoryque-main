@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Indoryque-main">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
