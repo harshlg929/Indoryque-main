@@ -1,0 +1,404 @@
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* Sky blue text */
+}
+
+.navbar {
+  background-color: #000; /* Dark navbar */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand,
+.nav-link {
+  color: #0056b3; /* Sky blue for navbar links */
+}
+.nav-link:hover {
+  color: #ffffff; /* White on hover */
+}
+.btn-primary {
+  background-color: #2eb6ae; /* Blue button */
+  border-color: #2eb6ae;
+}
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.section {
+  background-color: #1f1f1f; /* Dark section background */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.text-skyblue {
+  color: #87ceeb;
+}
+.step-card {
+  background-color: rgba(6, 6, 18, 0.8); /* Dark grey card background */
+  color: #ffffff; /* Sky blue text */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.step-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff; /* Sky blue for step number */
+}
+.step-title {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.step-description {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Add hover effects */
+.step-card:hover {
+  background-color: #000;
+  color: #0056b3;
+  border-color: #0056b3;
+}
+
+.container.contact-form {
+  max-width: 600px;
+  background-color: rgba(
+    6,
+    6,
+    18,
+    0.8
+  ); /* Dark background for the form container */
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  margin-top: 32px;
+}
+
+.text-skyblue {
+  color: #87ceeb; /* Sky blue color */
+}
+
+.form-control {
+  background-color: #000; /* Black input background */
+  color: #fff; /* Sky blue text */
+  border: 1px solid #87ceeb; /* Sky blue border */
+}
+
+.form-control:focus {
+  background-color: #1c1c1c;
+  color: #fff;
+  border-color: #ffffff;
+}
+
+.form-select {
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid #87ceeb;
+}
+
+.form-select:focus {
+  background-color: #1c1c1c;
+  color: #fff;
+  border-color: #87ceeb;
+}
+
+.btn-skyblue {
+  background-color: #87ceeb;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-skyblue:hover {
+  background-color: #6cb7da;
+  color: #fff;
+}
+
+.creative-toggle-btn:hover {
+  background-color: #2980b9;
+}
+
+.arrow {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  width: 50%;
+  background-color:#fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0);
+  /* transition: all 0.3s ease; */
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(60%, 0);
+}
+@media (max-width: 768px) {
+  .dropdown-menu {
+    width: 50%;
+    left: 0;
+  }
+}
+
+
+.dropdown-item {
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: none;
+  background: none;
+  /* width: 100%; */
+  text-align: left;
+  color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item i.icon-star {
+  margin-right: 8px;
+  color: #f39c12;
+}
+
+.dropdown-item:hover {
+  background-color: #ecf0f1;
+  color: #3498db;
+}
+.dropdown-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  filter: invert(1);
+}
+
+.welcome-container {
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 8px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+.login-container,
+.register-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #000;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#login-button,
+#register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-button,
+#register-button:hover {
+  background-color: #0056b3;
+}
+#register-p,
+#login-p {
+  color: white;
+}
+.work-card {
+  margin-top: 20px;
+  background: linear-gradient(
+    to top,
+    rgba(6, 6, 18, 0.8),
+    rgba(6, 6, 18, 0.8),
+    #000000,
+    #000000
+  ); /* Light blue to darker blue */
+  color: #ffffff;
+  min-height: 500px ;
+  border-radius: 10px;
+  border-style: hidden;
+  text-align: left;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+.work-title {
+  display: flex;
+  flex-direction: row;
+  margin-top: px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.work-image {
+  width: 100%;
+  height: 200px; /* You can adjust the height as needed */
+  overflow: hidden; /* Prevent image overflow */
+}
+.work-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  /* object-fit: cover; */
+} 
+.box-caption  {
+  text-align: left;
+  object-fit: cover;
+ 
+}
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 2px; /* Adjust width for small size */
+  height: 2px; /* Adjust height for small size (for horizontal scrollbar) */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Light gray for the track */
+  margin: 10px;
+
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #0056b3; /* Light blue color */
+  border-radius: 20px; /* Optional rounded corners */
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3; /* Darker light blue on hover */
+}
+
+/* Style the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: #000; /* Black for the corner */
+}
+.chatbot-button {
+  position: fixed;
+}
+
+.bottom-6 {
+  bottom: 25px;
+}
+
+.right-6 {
+  right: 24px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.bg-blue-500 {
+  background-color: #007bff; 
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.z-50 {
+  z-index: 50;
+}
+.chatbox {
+  position: fixed;
+  background-color: rgba(6, 6, 18);
+  bottom: 100px;
+  right: 40px;
+  width: 300px;
+  border-radius: 10px;
+  height: 300px;
+}

@@ -1,0 +1,13 @@
+export { default as About } from './about';
+export { default as ContactUs } from './contact';
+export { default as Footer } from './footer';
+export { default as Header } from './header';
+export { default as Services } from './services';
+export { default as WhatsNext } from './whatsNext';
+export { default as Carousel } from './carousel';
+export { default as Industries } from './industries';
+export { default as Middletittle } from './middletittle';
+export { default as Ourwork } from './ourwork';
+export { default as Socialmedia } from './socialmedia';
+export { default as Wallpaper } from './wallpaper';
+export { default as Chatbot } from './chatbot';

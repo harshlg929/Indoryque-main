@@ -1,0 +1,174 @@
+:root {
+  --primary-white: #ffffff;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 100%;/* Set a max width for the carousel */
+    margin: auto;
+    margin-top: 45px;
+    overflow: hidden;
+    padding: 15px;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .indicators {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: gray;
+  }
+  /* General styles for navigation icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px; /* Default size */
+  height: 30px; /* Default size */
+  background-size: contain;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px; /* Reduce clickable area */
+    height: 350px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px; /* Smaller icons for mobile */
+    height: 20px;
+  }
+
+  .carousel-control-prev {
+    left: 10px; /* Adjust positioning */
+  }
+
+  .carousel-control-next {
+    right: 10px; /* Adjust positioning */
+  }
+}
+
+  .services-card {
+    background-color: rgba(6, 6, 18, 0.80); /* Dark grey card background */
+    color: #ffffff; /* Sky blue text */
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: left;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+  }
+  .industries-box li {
+  list-style-type:none;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: rgba(6, 6, 18, 0.80);
+  margin-top:5px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 1.4;
+  padding: 0;
+  padding-left: 8PX;
+  }
+  .industries-box li:hover {
+    list-style-type:none;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #000;
+    border-color: #0056b3;
+    margin-top:9px;
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 0;
+    padding-left: 9px;
+    }
+  .industries-card {
+    background-color: rgba(6, 6, 18, 0.80); /* Dark grey card background */
+    color: #ffffff; /* Sky blue text */
+    padding: 20px;
+    height: 420px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+  }
+  
+  .services-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .services-description {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Add hover effects */
+  .services-card:hover {
+    background-color: #000;
+    color: #0056b3;
+    border-color: #0056b3;
+  }
+  .navbar .nav-link.dropdown-toggle:focus,
+.navbar .nav-link.dropdown-toggle:active {
+  color: inherit !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.readmore-button {  
+  padding:10px;
+  font-size: 15px;
+  background-color: #61dafb;
+  color: #000;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+}
+.middle-box {
+  background-image: url('../images/middletittle.jpg');
+  background-size: cover;
+  border-radius: 30px;
+}
+@media (max-width: 100px) {
+  .middle-box {
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
