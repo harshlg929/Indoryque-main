@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Indoryque-main/static/css/main.fa84405f.css",
+    "main.js": "/Indoryque-main/static/js/main.35f58c4b.js",
+    "static/js/453.ee722819.chunk.js": "/Indoryque-main/static/js/453.ee722819.chunk.js",
+    "static/media/image1.jpg": "/Indoryque-main/static/media/image1.3ae5c94a1f7e78c0688c.jpg",
+    "static/media/logo.jpg": "/Indoryque-main/static/media/logo.87b9dd03739d9504cd0b.jpg",
+    "static/media/logo1.png": "/Indoryque-main/static/media/logo1.dcf46f91467f56819235.png",
+    "static/media/projectowner.jpg": "/Indoryque-main/static/media/projectowner.fbef8f8f8f649386e911.jpg",
+    "static/media/projectplanning.jpg": "/Indoryque-main/static/media/projectplanning.0eac89756cd0933c06ed.jpg",
+    "static/media/middletittle.jpg": "/Indoryque-main/static/media/middletittle.efc82121a7e06d11f538.jpg",
+    "static/media/image3.jpg": "/Indoryque-main/static/media/image3.a2cb42569e9d0bd1ca3c.jpg",
+    "static/media/image2.jpg": "/Indoryque-main/static/media/image2.7bd53d08c5169bf440be.jpg",
+    "index.html": "/Indoryque-main/index.html",
+    "main.fa84405f.css.map": "/Indoryque-main/static/css/main.fa84405f.css.map",
+    "main.35f58c4b.js.map": "/Indoryque-main/static/js/main.35f58c4b.js.map",
+    "453.ee722819.chunk.js.map": "/Indoryque-main/static/js/453.ee722819.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa84405f.css",
+    "static/js/main.35f58c4b.js"
+  ]
+}
