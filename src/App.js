@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import Login from "./pages/login";
 import Register from "./pages/register";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
