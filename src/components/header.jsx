@@ -76,7 +76,7 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
+        {/* <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             {menuItems.map((item, index) =>
               item.dropdown ? (
@@ -119,7 +119,7 @@ const Header = () => {
               )
             )}
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
