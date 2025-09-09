@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { image1, image2, image3, projectplanning, projectowner } from "./../images";
+import { work1, work2, work3 } from "./../images";
 import HandshakeOutlinedIcon from '@mui/icons-material/HandshakeOutlined';
 import TipsAndUpdatesOutlinedIcon from '@mui/icons-material/TipsAndUpdatesOutlined';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
@@ -10,21 +10,21 @@ const productInfo = [
     title: "Think like a customer",
     caption:
       "Excellence starts with understanding each other. We ask the right questionslistening and learning to get better every day. We simplify the complex and are trusted to deliver solutions that add value and create a bigger impact for our colleagues and customer.",
-    image: projectplanning,
+    image: work1,
     icon: <TipsAndUpdatesOutlinedIcon/>
   },
   { title: "Act like an owner",
     caption:"We stay agile, each one of us is responsible for driving success. We use our initiative, taking calculated and thoughtful risks to progress. We champion our ideas and stay flexible to make them happen. We know that every action adds up",
     details: "test2",
-    image: projectowner,
+    image: work2,
     icon: <HandshakeOutlinedIcon/> },
   { title: "Win as a Team",
     caption:"Unlocking potential takes working as one global community. Staying united by our purpose to achieve our collective goals. We collaborate, encouraging others to perform at their best, welcoming new perspectives.",
-     image: image3,
+     image: work3,
      icon: <MilitaryTechIcon/> },
   { title: "Increase in productivity",
     caption:" powered software development improved efficiency for a photography products company",
-     image: image3,
+     image: work2,
      icon: <ProductionQuantityLimitsIcon/>},
 ];
 

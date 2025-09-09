@@ -1,15 +1,15 @@
-import { image1, image2, image3 } from "./../images";
+import { image4, image6, image5 } from "./../images";
 export const slides = [
   {
-    image: image1,
+    image: image4,
     caption: "",
   },
   {
-    image: image2,
+    image: image6,
     caption: "",
   },
   {
-    image: image3,
+    image: image5,
     caption: "",
   },
 ];

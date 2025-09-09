@@ -34,7 +34,7 @@ const Home = () => {
         <Ourwork />
         <section
           id="contact"
-          className="container d-lg-flex col-12 col-lg-12 col-sm-12 col-md-12"
+          className="container d-lg-flex col-12 col-lg-12 col-sm-12 col-md-12 d-lg-flex justify-content-between"
         >
           <WhatsNext />
           <ContactUs />

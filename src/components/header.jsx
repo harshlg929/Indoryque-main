@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import BuildIcon from "@mui/icons-material/Build";
-import { logo1 } from "./../images/index";
+import { logo1, logo3 } from "./../images/index";
 
 const menuItems = [
   { name: "Home", link: "#home" },

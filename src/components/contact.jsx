@@ -51,7 +51,7 @@ export default function ContactUs() {
   });
 
   return (
-    <div className="col-12 col-lg-6 col-sm-12 col-md-12">
+    <div className="col-12 col-lg-5 col-sm-12 col-md-12">
       <h2 className="text-primary text-center">Contact Us</h2>
       <div className="container contact-form">
         <form onSubmit={formik.handleSubmit}>

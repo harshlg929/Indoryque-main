@@ -14,7 +14,7 @@ const servicesmenu = [
         }}
       />
     ),
-    servicestitle: "product development",
+    servicestitle: "Product Developement",
   },
   {
     serviceicon: (
@@ -74,7 +74,7 @@ const Services = () => {
       <div className="col-md-4">
         <div className="services-card">
         {item.serviceicon}
-          <h4 className="services-title">Product Development</h4>
+          <h4 className="services-title">{item.servicestitle}</h4>
         </div>
       </div>
     );

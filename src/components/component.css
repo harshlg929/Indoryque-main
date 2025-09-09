@@ -9,6 +9,8 @@
     margin-top: 45px;
     overflow: hidden;
     padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   
   .carousel-slide {
@@ -22,6 +24,8 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
+    background-size: cover;
+    
   }
   
   .caption {
@@ -159,7 +163,7 @@
   /* transition: background-color 0.3s ease; */
 }
 .middle-box {
-  background-image: url('../images/middletittle.jpg');
+  background-image: url('../images/middleTitle1.png');
   background-size: cover;
   border-radius: 30px;
 }
